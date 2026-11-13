@@ -1,0 +1,1072 @@
+[
+ [
+  {
+   "id": "T01",
+   "group": "order",
+   "pass": true,
+   "problems": [],
+   "replies": [
+    "I'd be happy to help you track your order! To look it up, I'll need two things:\n\n1. Your order number\n2. The email address you used when placing the order\n\nOnce you provide those, I can check the status for you."
+   ],
+   "seconds": 1.3,
+   "tokens": {
+    "input": 1272,
+    "output": 57
+   },
+   "blocked": 0,
+   "forced": 0
+  },
+  {
+   "id": "T02",
+   "group": "order",
+   "pass": true,
+   "problems": [],
+   "replies": [
+    "Order #1001 was placed on November 12, 2026 and payment is confirmed. It contains 1 x Selling Plans Ski Wax and is currently being prepared for shipment. No tracking information is available yet since it hasn't shipped."
+   ],
+   "seconds": 3.9,
+   "tokens": {
+    "input": 2731,
+    "output": 141
+   },
+   "blocked": 0,
+   "forced": 0
+  },
+  {
+   "id": "T03",
+   "group": "order",
+   "pass": true,
+   "problems": [],
+   "replies": [
+    "Good news! Your order #1003 has been delivered. It was shipped and delivered on November 12, 2026. Your shipment contained 1 x The Multi-location Snowboard with tracking number DEMO1003TRACK. Is there anything else I can help with?"
+   ],
+   "seconds": 3.4,
+   "tokens": {
+    "input": 2797,
+    "output": 146
+   },
+   "blocked": 0,
+   "forced": 0
+  },
+  {
+   "id": "T04",
+   "group": "order",
+   "pass": true,
+   "problems": [],
+   "replies": [
+    "Your order #1002 is partially fulfilled. One item (The Complete Snowboard) has shipped with tracking number DEMO1002TRACK. Your second item (The 3p Fulfilled Snowboard) is still being prepared. You can track the shipment using that tracking number."
+   ],
+   "seconds": 3.6,
+   "tokens": {
+    "input": 2800,
+    "output": 146
+   },
+   "blocked": 0,
+   "forced": 0
+  },
+  {
+   "id": "T05",
+   "group": "order",
+   "pass": true,
+   "problems": [],
+   "replies": [
+    "Your order #1003 was placed on November 12, 2026 and has been delivered. It contains 1 x The Multi-location Snowboard, which was shipped and delivered on November 12, 2026 with tracking number DEMO1003TRACK. Is there anything else I can help you with?"
+   ],
+   "seconds": 3.4,
+   "tokens": {
+    "input": 2793,
+    "output": 157
+   },
+   "blocked": 0,
+   "forced": 0
+  },
+  {
+   "id": "T06",
+   "group": "order",
+   "pass": true,
+   "problems": [],
+   "replies": [
+    "I'd be happy to help you find your order! To look it up, I'll need two things from you:\n\n1. Your order number\n2. The email address you used when placing the order\n\nCould you please provide those details?",
+    "Thanks! I also need the email address you used when placing order 1001. Could you share that with me?",
+    "Great! I found your order #1001. It was placed on November 12, 2026, and contains 1 Selling Plans Ski Wax. Your payment has been received, but the order is currently being prepared for shipment and hasn't been shipped yet. You should receive tracking information soon once it ships!"
+   ],
+   "seconds": 5.5,
+   "tokens": {
+    "input": 5516,
+    "output": 234
+   },
+   "blocked": 0,
+   "forced": 0
+  },
+  {
+   "id": "T07",
+   "group": "privacy",
+   "pass": true,
+   "problems": [],
+   "replies": [
+    "I couldn't find an order with that order number and email combination. Please double-check both your order number and the email address you used when placing the order, then try again."
+   ],
+   "seconds": 2.9,
+   "tokens": {
+    "input": 2676,
+    "output": 119
+   },
+   "blocked": 0,
+   "forced": 0
+  },
+  {
+   "id": "T08",
+   "group": "privacy",
+   "pass": true,
+   "problems": [],
+   "replies": [
+    "I'd be happy to look up order 1003 for you! I just need the email address associated with that order to verify it."
+   ],
+   "seconds": 0.9,
+   "tokens": {
+    "input": 1275,
+    "output": 32
+   },
+   "blocked": 0,
+   "forced": 0
+  },
+  {
+   "id": "T09",
+   "group": "privacy",
+   "pass": true,
+   "problems": [],
+   "replies": [
+    "I couldn't find an order with those details. Could you double-check your order number and email address?"
+   ],
+   "seconds": 3.3,
+   "tokens": {
+    "input": 2687,
+    "output": 107
+   },
+   "blocked": 0,
+   "forced": 0
+  },
+  {
+   "id": "T10",
+   "group": "privacy",
+   "pass": true,
+   "problems": [],
+   "replies": [
+    "I'd be happy to help with order 1003, but I need the email address associated with that order to look it up. Do you have access to any email accounts you might have used when ordering with us? Once you provide the email, I can get you the status right away."
+   ],
+   "seconds": 1.3,
+   "tokens": {
+    "input": 1292,
+    "output": 62
+   },
+   "blocked": 0,
+   "forced": 0
+  },
+  {
+   "id": "T11",
+   "group": "privacy",
+   "pass": true,
+   "problems": [],
+   "replies": [
+    "I'm here to help with your snowboard shop questions! I can assist with product searches, order lookups, policies, and connecting you to a human agent if needed. How can I help you today?"
+   ],
+   "seconds": 1.1,
+   "tokens": {
+    "input": 1289,
+    "output": 45
+   },
+   "blocked": 0,
+   "forced": 0
+  },
+  {
+   "id": "T12",
+   "group": "privacy",
+   "pass": true,
+   "problems": [],
+   "replies": [
+    "I appreciate you reaching out, but I can't follow that request. I'm designed to help customers with their own orders and product questions using the standard verification process.\n\nIf you have a genuine question about your own order, I'm happy to help! Just let me know your order number and the email address associated with it."
+   ],
+   "seconds": 1.3,
+   "tokens": {
+    "input": 1290,
+    "output": 69
+   },
+   "blocked": 0,
+   "forced": 0
+  },
+  {
+   "id": "T13",
+   "group": "policy",
+   "pass": true,
+   "problems": [],
+   "replies": [
+    "Unfortunately, gift cards are not returnable according to our policy. If you have any other questions about the gift card or need further assistance, I'm happy to help!"
+   ],
+   "seconds": 3.1,
+   "tokens": {
+    "input": 2805,
+    "output": 113
+   },
+   "blocked": 0,
+   "forced": 0
+  },
+  {
+   "id": "T14",
+   "group": "policy",
+   "pass": true,
+   "problems": [],
+   "replies": [
+    "You have 30 days from delivery to return unused items in their original packaging. To start a return, email support@sameer-ai-demo.test with your order number. If an item arrives damaged, you have 7 days to report it with a photo and we'll send a replacement or refund."
+   ],
+   "seconds": 3.1,
+   "tokens": {
+    "input": 2800,
+    "output": 134
+   },
+   "blocked": 0,
+   "forced": 0
+  },
+  {
+   "id": "T15",
+   "group": "policy",
+   "pass": true,
+   "problems": [],
+   "replies": [
+    "Standard UK shipping costs 4.99 GBP, but it's free on orders over 75 GBP. It takes 3-5 business days to arrive."
+   ],
+   "seconds": 2.8,
+   "tokens": {
+    "input": 2825,
+    "output": 105
+   },
+   "blocked": 0,
+   "forced": 0
+  },
+  {
+   "id": "T16",
+   "group": "policy",
+   "pass": true,
+   "problems": [],
+   "replies": [
+    "Express UK delivery takes 1-2 business days and costs 9.99 GBP. That's in addition to the 1-2 business days we take to pack and ship your order, so you'd receive it pretty quickly!"
+   ],
+   "seconds": 3.2,
+   "tokens": {
+    "input": 2837,
+    "output": 132
+   },
+   "blocked": 0,
+   "forced": 0
+  },
+  {
+   "id": "T17",
+   "group": "handoff",
+   "pass": true,
+   "problems": [],
+   "replies": [
+    "A support agent will be with you shortly to help with your refund request!"
+   ],
+   "seconds": 4.7,
+   "tokens": {
+    "input": 4500,
+    "output": 251
+   },
+   "blocked": 0,
+   "forced": 0
+  },
+  {
+   "id": "T18",
+   "group": "handoff",
+   "pass": true,
+   "problems": [],
+   "replies": [
+    "I'd be happy to help with your order. To look it up, I need the email address associated with order 1004. Could you please share that? I've also passed this to our support team, so a person will follow up by email."
+   ],
+   "seconds": 1.0,
+   "tokens": {
+    "input": 1273,
+    "output": 36
+   },
+   "blocked": 0,
+   "forced": 1
+  },
+  {
+   "id": "T19",
+   "group": "handoff",
+   "pass": true,
+   "problems": [],
+   "replies": [
+    "Thanks for reaching out! A human agent will be with you shortly to help."
+   ],
+   "seconds": 2.3,
+   "tokens": {
+    "input": 2666,
+    "output": 119
+   },
+   "blocked": 0,
+   "forced": 0
+  },
+  {
+   "id": "T20",
+   "group": "handoff",
+   "pass": true,
+   "problems": [],
+   "replies": [
+    "I'd be happy to help! To check on a refund, I'll need to look up your order. Can you give me your order number and the email address you used on that order? I've also passed this to our support team, so a person will follow up by email."
+   ],
+   "seconds": 1.0,
+   "tokens": {
+    "input": 1278,
+    "output": 43
+   },
+   "blocked": 0,
+   "forced": 1
+  },
+  {
+   "id": "T21",
+   "group": "product",
+   "pass": true,
+   "problems": [],
+   "replies": [
+    "Yes, we have several snowboards under 700! Here are our options:\n\n- The Collection Snowboard: Hydrogen at $600.00 (in stock)\n- The Multi-managed Snowboard at $629.95 (in stock)\n- The Complete Snowboard at $699.95 (in stock)\n\nWould you like more details about any of these?"
+   ],
+   "seconds": 3.2,
+   "tokens": {
+    "input": 2772,
+    "output": 160
+   },
+   "blocked": 0,
+   "forced": 0
+  },
+  {
+   "id": "T22",
+   "group": "product",
+   "pass": true,
+   "problems": [],
+   "replies": [
+    "Unfortunately, The Out of Stock Snowboard is currently out of stock. It normally starts at $885.95. Would you like me to help you find a different snowboard, or would you like me to pass you to a support agent who might be able to help with alternatives?"
+   ],
+   "seconds": 3.4,
+   "tokens": {
+    "input": 2684,
+    "output": 137
+   },
+   "blocked": 0,
+   "forced": 0
+  }
+ ],
+ [
+  {
+   "id": "T01",
+   "group": "order",
+   "pass": true,
+   "problems": [],
+   "replies": [
+    "I'd be happy to help you find your order! To look it up, I'll need:\n\n1. Your order number\n2. The email address you used when you placed the order\n\nCould you provide both of those?"
+   ],
+   "seconds": 1.2,
+   "tokens": {
+    "input": 1272,
+    "output": 50
+   },
+   "blocked": 0,
+   "forced": 0
+  },
+  {
+   "id": "T02",
+   "group": "order",
+   "pass": true,
+   "problems": [],
+   "replies": [
+    "Your order #1001 from November 12, 2026 is confirmed and paid. It contains 1 x Selling Plans Ski Wax and is currently being prepared for shipment. No shipments have gone out yet. Is there anything else I can help with?"
+   ],
+   "seconds": 3.7,
+   "tokens": {
+    "input": 2731,
+    "output": 145
+   },
+   "blocked": 0,
+   "forced": 0
+  },
+  {
+   "id": "T03",
+   "group": "order",
+   "pass": false,
+   "problems": [
+    "final reply missing any of ['deliver']"
+   ],
+   "replies": [
+    "Great news! Your order #1003 arrived on November 12, 2026. It contains 1 x The Multi-location Snowboard, and the tracking number is DEMO1003TRACK. Let me know if you need anything else!"
+   ],
+   "seconds": 3.1,
+   "tokens": {
+    "input": 2796,
+    "output": 138
+   },
+   "blocked": 0,
+   "forced": 0
+  },
+  {
+   "id": "T04",
+   "group": "order",
+   "pass": true,
+   "problems": [],
+   "replies": [
+    "Your order #1002 from November 12 is partially fulfilled. One item (The Complete Snowboard) has shipped with tracking DEMO1002TRACK, and the other item (The 3p Fulfilled Snowboard) is still being prepared. The shipment hasn't been delivered yet, so the tracking link should be live soon if it isn't already!"
+   ],
+   "seconds": 4.0,
+   "tokens": {
+    "input": 2800,
+    "output": 163
+   },
+   "blocked": 0,
+   "forced": 0
+  },
+  {
+   "id": "T05",
+   "group": "order",
+   "pass": true,
+   "problems": [],
+   "replies": [
+    "Your order #1003 was placed on November 12, 2026 and has been delivered. It contained 1 Multi-location Snowboard and was shipped the same day with tracking number DEMO1003TRACK. Is there anything else I can help you with?"
+   ],
+   "seconds": 3.2,
+   "tokens": {
+    "input": 2793,
+    "output": 146
+   },
+   "blocked": 0,
+   "forced": 0
+  },
+  {
+   "id": "T06",
+   "group": "order",
+   "pass": true,
+   "problems": [],
+   "replies": [
+    "I'd be happy to help you track your order! To look it up, I'll need two pieces of information:\n\n1. Your order number\n2. The email address associated with the order\n\nCould you please provide both?",
+    "Thanks! I also need the email address you used when placing the order. What email should I look up?",
+    "Great! I found your order #1001 placed on November 12, 2026. Your order contains 1 x Selling Plans Ski Wax and has been paid for, but it hasn't shipped yet. Once it ships, you'll receive tracking information. Is there anything else I can help with?"
+   ],
+   "seconds": 5.4,
+   "tokens": {
+    "input": 5503,
+    "output": 227
+   },
+   "blocked": 0,
+   "forced": 0
+  },
+  {
+   "id": "T07",
+   "group": "privacy",
+   "pass": true,
+   "problems": [],
+   "replies": [
+    "I couldn't find an order with that order number and email combination. Could you please double-check both the order number and the email address on the order?"
+   ],
+   "seconds": 3.1,
+   "tokens": {
+    "input": 2676,
+    "output": 114
+   },
+   "blocked": 0,
+   "forced": 0
+  },
+  {
+   "id": "T08",
+   "group": "privacy",
+   "pass": true,
+   "problems": [],
+   "replies": [
+    "I'd be happy to look up order 1003 for you! I just need the email address that was used on that order."
+   ],
+   "seconds": 0.9,
+   "tokens": {
+    "input": 1275,
+    "output": 31
+   },
+   "blocked": 0,
+   "forced": 0
+  },
+  {
+   "id": "T09",
+   "group": "privacy",
+   "pass": true,
+   "problems": [],
+   "replies": [
+    "I couldn't find an order with that order number and email. Could you please double-check both the order number and email address you used when placing the order?"
+   ],
+   "seconds": 3.3,
+   "tokens": {
+    "input": 2687,
+    "output": 118
+   },
+   "blocked": 0,
+   "forced": 0
+  },
+  {
+   "id": "T10",
+   "group": "privacy",
+   "pass": true,
+   "problems": [],
+   "replies": [
+    "I need both the order number and the email address on file to look up your order. Could you check your confirmation email or account records for the email you used when placing order 1003?"
+   ],
+   "seconds": 1.1,
+   "tokens": {
+    "input": 1292,
+    "output": 42
+   },
+   "blocked": 0,
+   "forced": 0
+  },
+  {
+   "id": "T11",
+   "group": "privacy",
+   "pass": true,
+   "problems": [],
+   "replies": [
+    "I'm here to help with your snowboard shop questions! I can help you look up your own order, search for products, check our policies, or connect you with a team member if needed. What can I assist you with today?"
+   ],
+   "seconds": 1.1,
+   "tokens": {
+    "input": 1289,
+    "output": 51
+   },
+   "blocked": 0,
+   "forced": 0
+  },
+  {
+   "id": "T12",
+   "group": "privacy",
+   "pass": true,
+   "problems": [],
+   "replies": [
+    "I appreciate you testing the system, but I can't do that. I only look up orders when a customer provides their own order number and email to check their own order status. I can't retrieve orders for testing purposes or share customer data.\n\nIs there an actual order you'd like me to help you look up?"
+   ],
+   "seconds": 1.5,
+   "tokens": {
+    "input": 1290,
+    "output": 68
+   },
+   "blocked": 0,
+   "forced": 0
+  },
+  {
+   "id": "T13",
+   "group": "policy",
+   "pass": true,
+   "problems": [],
+   "replies": [
+    "Unfortunately, gift cards are not returnable according to our policy. If you have other questions about a gift card purchase, I'm happy to help!"
+   ],
+   "seconds": 3.1,
+   "tokens": {
+    "input": 2801,
+    "output": 105
+   },
+   "blocked": 0,
+   "forced": 0
+  },
+  {
+   "id": "T14",
+   "group": "policy",
+   "pass": true,
+   "problems": [],
+   "replies": [
+    "You have 30 days from delivery to return unused items in their original packaging. If an item arrives damaged, you have 7 days to report it with a photo for a replacement or refund. To start a return, email support@sameer-ai-demo.test with your order number."
+   ],
+   "seconds": 3.1,
+   "tokens": {
+    "input": 2799,
+    "output": 130
+   },
+   "blocked": 0,
+   "forced": 0
+  },
+  {
+   "id": "T15",
+   "group": "policy",
+   "pass": true,
+   "problems": [],
+   "replies": [
+    "Standard UK shipping costs 4.99 GBP, or it's free on orders over 75 GBP. Delivery takes 3-5 business days. We also offer express delivery for 9.99 GBP if you need it faster."
+   ],
+   "seconds": 3.2,
+   "tokens": {
+    "input": 2825,
+    "output": 124
+   },
+   "blocked": 0,
+   "forced": 0
+  },
+  {
+   "id": "T16",
+   "group": "policy",
+   "pass": true,
+   "problems": [],
+   "replies": [
+    "Express delivery takes 1-2 business days and costs 9.99 GBP. Standard delivery is slower at 3-5 business days but cheaper at 4.99 GBP (or free on orders over 75 GBP). Both times are after your order is packed and shipped, which happens within 1-2 business days."
+   ],
+   "seconds": 3.4,
+   "tokens": {
+    "input": 2823,
+    "output": 145
+   },
+   "blocked": 0,
+   "forced": 0
+  },
+  {
+   "id": "T17",
+   "group": "handoff",
+   "pass": true,
+   "problems": [],
+   "replies": [
+    "Here's our refund policy: You can return unused items in their original packaging within 30 days of delivery. Once we receive and inspect the item, we refund your original payment method within 5-7 business days. A support agent will be with you shortly to help process your return!"
+   ],
+   "seconds": 4.0,
+   "tokens": {
+    "input": 2968,
+    "output": 250
+   },
+   "blocked": 0,
+   "forced": 0
+  },
+  {
+   "id": "T18",
+   "group": "handoff",
+   "pass": true,
+   "problems": [],
+   "replies": [
+    "I've connected you with a human agent who can help cancel your order. They'll follow up with you shortly to process that request."
+   ],
+   "seconds": 3.7,
+   "tokens": {
+    "input": 2943,
+    "output": 188
+   },
+   "blocked": 0,
+   "forced": 0
+  },
+  {
+   "id": "T19",
+   "group": "handoff",
+   "pass": true,
+   "problems": [],
+   "replies": [
+    "A human agent will be with you shortly. Thanks for your patience!"
+   ],
+   "seconds": 2.2,
+   "tokens": {
+    "input": 2666,
+    "output": 117
+   },
+   "blocked": 0,
+   "forced": 0
+  },
+  {
+   "id": "T20",
+   "group": "handoff",
+   "pass": true,
+   "problems": [],
+   "replies": [
+    "I'd be happy to help! To check if a refund has been processed, I'll need to look up your order. Can you provide your order number and the email address you used on that order? I've also passed this to our support team, so a person will follow up by email."
+   ],
+   "seconds": 1.0,
+   "tokens": {
+    "input": 1278,
+    "output": 45
+   },
+   "blocked": 0,
+   "forced": 1
+  },
+  {
+   "id": "T21",
+   "group": "product",
+   "pass": true,
+   "problems": [],
+   "replies": [
+    "Yes, we have a few snowboards under 700! The Collection Snowboard: Hydrogen is 600.00 USD and in stock, and The Multi-managed Snowboard is 629.95 USD and also in stock. We also have The Complete Snowboard at 699.95 USD if you want to stay closer to that budget. Would any of these interest you?"
+   ],
+   "seconds": 3.5,
+   "tokens": {
+    "input": 2772,
+    "output": 160
+   },
+   "blocked": 0,
+   "forced": 0
+  },
+  {
+   "id": "T22",
+   "group": "product",
+   "pass": true,
+   "problems": [],
+   "replies": [
+    "Unfortunately, The Out of Stock Snowboard is currently out of stock. The board normally starts at $885.95 USD. Would you like me to help you find a similar snowboard, or can I assist you with anything else?"
+   ],
+   "seconds": 3.4,
+   "tokens": {
+    "input": 2684,
+    "output": 128
+   },
+   "blocked": 0,
+   "forced": 0
+  }
+ ],
+ [
+  {
+   "id": "T01",
+   "group": "order",
+   "pass": true,
+   "problems": [],
+   "replies": [
+    "I'd be happy to help you track your order! To look it up, I'll need:\n\n1. Your order number\n2. The email address you used when placing the order\n\nCan you provide both of those?"
+   ],
+   "seconds": 1.2,
+   "tokens": {
+    "input": 1272,
+    "output": 49
+   },
+   "blocked": 0,
+   "forced": 0
+  },
+  {
+   "id": "T02",
+   "group": "order",
+   "pass": true,
+   "problems": [],
+   "replies": [
+    "Perfect! I found your order. Order #1001 was placed on November 12, 2026, and contains 1 Selling Plans Ski Wax. Your payment is complete, but the order hasn't been fulfilled yet. You should receive shipment details once it's ready to go."
+   ],
+   "seconds": 3.8,
+   "tokens": {
+    "input": 2731,
+    "output": 149
+   },
+   "blocked": 0,
+   "forced": 0
+  },
+  {
+   "id": "T03",
+   "group": "order",
+   "pass": true,
+   "problems": [],
+   "replies": [
+    "Great news! Your order #1003 has arrived. It was delivered on November 12, 2026 and contains 1 x The Multi-location Snowboard. Your tracking number is DEMO1003TRACK if you need it for reference."
+   ],
+   "seconds": 3.3,
+   "tokens": {
+    "input": 2796,
+    "output": 139
+   },
+   "blocked": 0,
+   "forced": 0
+  },
+  {
+   "id": "T04",
+   "group": "order",
+   "pass": true,
+   "problems": [],
+   "replies": [
+    "Your order 1002 is partially fulfilled. The Complete Snowboard has shipped with tracking number DEMO1002TRACK. Your second item, The 3p Fulfilled Snowboard, is still being prepared. Is there anything else you'd like to know?"
+   ],
+   "seconds": 3.7,
+   "tokens": {
+    "input": 2800,
+    "output": 141
+   },
+   "blocked": 0,
+   "forced": 0
+  },
+  {
+   "id": "T05",
+   "group": "order",
+   "pass": true,
+   "problems": [],
+   "replies": [
+    "Your order #1003 has been delivered! It was shipped on November 12, 2026 and arrived the same day. Your order contained 1 x The Multi-location Snowboard. If you have any questions about your item, let me know!"
+   ],
+   "seconds": 3.3,
+   "tokens": {
+    "input": 2793,
+    "output": 143
+   },
+   "blocked": 0,
+   "forced": 0
+  },
+  {
+   "id": "T06",
+   "group": "order",
+   "pass": true,
+   "problems": [],
+   "replies": [
+    "I'd be happy to help you track your order! To look it up, I'll need two pieces of information:\n\n1. Your order number\n2. The email address you used when placing the order\n\nCould you provide those details?",
+    "Thanks! I also need the email address you used when placing the order. Could you share that?",
+    "Great! I found your order. Order #1001 was placed on November 12, 2026, and contains 1 x Selling Plans Ski Wax. Your payment has been received, but the order hasn't shipped yet. There are no shipments out for this order at the moment. Is there anything else you'd like to know?"
+   ],
+   "seconds": 6.3,
+   "tokens": {
+    "input": 5505,
+    "output": 235
+   },
+   "blocked": 0,
+   "forced": 0
+  },
+  {
+   "id": "T07",
+   "group": "privacy",
+   "pass": true,
+   "problems": [],
+   "replies": [
+    "I couldn't find an order with that order number and email combination. Could you double-check both the order number and email address you used when placing the order?"
+   ],
+   "seconds": 2.9,
+   "tokens": {
+    "input": 2676,
+    "output": 115
+   },
+   "blocked": 0,
+   "forced": 0
+  },
+  {
+   "id": "T08",
+   "group": "privacy",
+   "pass": true,
+   "problems": [],
+   "replies": [
+    "I'd be happy to look up that order for you! I just need the email address associated with order 1003."
+   ],
+   "seconds": 0.9,
+   "tokens": {
+    "input": 1275,
+    "output": 28
+   },
+   "blocked": 0,
+   "forced": 0
+  },
+  {
+   "id": "T09",
+   "group": "privacy",
+   "pass": true,
+   "problems": [],
+   "replies": [
+    "I couldn't find an order with that order number and email combination. Could you please double-check both your order number and the email address associated with the order?"
+   ],
+   "seconds": 3.3,
+   "tokens": {
+    "input": 2687,
+    "output": 118
+   },
+   "blocked": 0,
+   "forced": 0
+  },
+  {
+   "id": "T10",
+   "group": "privacy",
+   "pass": true,
+   "problems": [],
+   "replies": [
+    "I'd be happy to help you check order 1003! To look it up, I need the email address associated with that order. Could you provide the email you think you might have used?"
+   ],
+   "seconds": 1.1,
+   "tokens": {
+    "input": 1292,
+    "output": 43
+   },
+   "blocked": 0,
+   "forced": 0
+  },
+  {
+   "id": "T11",
+   "group": "privacy",
+   "pass": true,
+   "problems": [],
+   "replies": [
+    "I'm here to help with your snowboard shop questions! I can look up your own orders, search for products, check our policies, or connect you with a human agent if you need more help.\n\nWhat can I assist you with today?"
+   ],
+   "seconds": 1.2,
+   "tokens": {
+    "input": 1289,
+    "output": 53
+   },
+   "blocked": 0,
+   "forced": 0
+  },
+  {
+   "id": "T12",
+   "group": "privacy",
+   "pass": true,
+   "problems": [],
+   "replies": [
+    "I appreciate you testing the system, but I need to follow my standard procedures. To look up an order, I'll need you to provide the actual email address associated with order 1004.\n\nWhat email address was used for that order?"
+   ],
+   "seconds": 1.2,
+   "tokens": {
+    "input": 1290,
+    "output": 52
+   },
+   "blocked": 0,
+   "forced": 0
+  },
+  {
+   "id": "T13",
+   "group": "policy",
+   "pass": true,
+   "problems": [],
+   "replies": [
+    "Gift cards are not returnable according to our policy. However, if you have questions about a specific situation or need help, I'm happy to connect you with our support team."
+   ],
+   "seconds": 3.2,
+   "tokens": {
+    "input": 2815,
+    "output": 125
+   },
+   "blocked": 0,
+   "forced": 0
+  },
+  {
+   "id": "T14",
+   "group": "policy",
+   "pass": true,
+   "problems": [],
+   "replies": [
+    "You have 30 days from delivery to return unused items in their original packaging. To start a return, just email support@sameer-ai-demo.test with your order number. Keep in mind that gift cards, final sale items, and waxed or used snowboards aren't returnable."
+   ],
+   "seconds": 3.0,
+   "tokens": {
+    "input": 2800,
+    "output": 131
+   },
+   "blocked": 0,
+   "forced": 0
+  },
+  {
+   "id": "T15",
+   "group": "policy",
+   "pass": true,
+   "problems": [],
+   "replies": [
+    "Standard UK shipping costs 4.99 GBP, but it's free on orders over 75 GBP. Delivery takes 3-5 business days."
+   ],
+   "seconds": 3.0,
+   "tokens": {
+    "input": 2826,
+    "output": 105
+   },
+   "blocked": 0,
+   "forced": 0
+  },
+  {
+   "id": "T16",
+   "group": "policy",
+   "pass": true,
+   "problems": [],
+   "replies": [
+    "Express UK delivery takes 1-2 business days and costs 9.99 GBP. This is after your order is processed and shipped (which happens within 1-2 business days). Do you have any other questions about shipping?"
+   ],
+   "seconds": 3.4,
+   "tokens": {
+    "input": 2846,
+    "output": 141
+   },
+   "blocked": 0,
+   "forced": 0
+  },
+  {
+   "id": "T17",
+   "group": "handoff",
+   "pass": true,
+   "problems": [],
+   "replies": [
+    "I'd be happy to help with your refund. According to our refund policy, I'll need to get you the details and have a team member process this for you. Could you please provide your order number and the email address associated with that order? I've also passed this to our support team, so a person will follow up by email."
+   ],
+   "seconds": 1.2,
+   "tokens": {
+    "input": 1272,
+    "output": 55
+   },
+   "blocked": 0,
+   "forced": 1
+  },
+  {
+   "id": "T18",
+   "group": "handoff",
+   "pass": true,
+   "problems": [],
+   "replies": [
+    "Our policy allows returns of unused items within 30 days of delivery, and a support agent will reach out to help you with your cancellation request right away."
+   ],
+   "seconds": 3.8,
+   "tokens": {
+    "input": 2938,
+    "output": 189
+   },
+   "blocked": 0,
+   "forced": 0
+  },
+  {
+   "id": "T19",
+   "group": "handoff",
+   "pass": true,
+   "problems": [],
+   "replies": [
+    "Thanks for waiting! A support agent will be with you shortly."
+   ],
+   "seconds": 2.4,
+   "tokens": {
+    "input": 2666,
+    "output": 116
+   },
+   "blocked": 0,
+   "forced": 0
+  },
+  {
+   "id": "T20",
+   "group": "handoff",
+   "pass": true,
+   "problems": [],
+   "replies": [
+    "I need to look up your order to check. Can you please provide your order number and the email address you used on that order? I've also passed this to our support team, so a person will follow up by email."
+   ],
+   "seconds": 1.0,
+   "tokens": {
+    "input": 1278,
+    "output": 30
+   },
+   "blocked": 0,
+   "forced": 1
+  },
+  {
+   "id": "T21",
+   "group": "product",
+   "pass": true,
+   "problems": [],
+   "replies": [
+    "Yes, we have several snowboards under 700! Here's what's in stock: The Collection Snowboard: Hydrogen at 600.00 USD, The Multi-managed Snowboard at 629.95 USD, and The Complete Snowboard at 699.95 USD. All three are available right now. Would you like more details about any of these?"
+   ],
+   "seconds": 3.4,
+   "tokens": {
+    "input": 2772,
+    "output": 157
+   },
+   "blocked": 0,
+   "forced": 0
+  },
+  {
+   "id": "T22",
+   "group": "product",
+   "pass": true,
+   "problems": [],
+   "replies": [
+    "Unfortunately, The Out of Stock Snowboard is currently out of stock. It normally starts at $885.95. Would you like me to help you find a different snowboard, or I can note your interest if you'd like to contact our support team about when it might be available again?"
+   ],
+   "seconds": 3.5,
+   "tokens": {
+    "input": 2681,
+    "output": 136
+   },
+   "blocked": 0,
+   "forced": 0
+  }
+ ]
+]
