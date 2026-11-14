@@ -7,6 +7,7 @@ Each browser chat gets its own SupportAgent, so the email + order lock and the
 reply checks work exactly as in the terminal version. Limits below keep a public
 demo from running up API costs.
 """
+import logging
 import os
 import secrets
 import threading
@@ -23,6 +24,8 @@ from agent import SupportAgent
 from shopify_client import ShopifyClient, load_env
 
 HERE = os.path.dirname(os.path.abspath(__file__))
+log = logging.getLogger("support")
+logging.basicConfig(level=logging.INFO)
 
 # ---------- limits for a public demo ----------
 MAX_CHARS = 500            # longest customer message accepted
@@ -143,7 +146,9 @@ def chat(body: ChatIn, request: Request):
         t0 = time.time()
         reply = agent.reply(text)
         took = round(time.time() - t0, 1)
-    except Exception:
+    except Exception as e:
+        # Logged for the owner (Render logs); visitors only see a generic message.
+        log.error("chat failed: %s: %s", type(e).__name__, str(e)[:300])
         # The chat history may be half-written, so drop this chat; the page starts a fresh one.
         with _lock:
             _chats.pop(cid, None)
