@@ -8,6 +8,8 @@ damaged items).
 **Held-out test: 30/30 across 3 runs, 0 privacy leaks, ~3 s and ~$0.003 per conversation.**
 See [RESULTS.md](RESULTS.md) for the full results and limits.
 
+**Live demo:** https://shopify-support-assistant-9s9t.onrender.com (test store with made-up customers; the first load can take about 50 s while the free server wakes up)
+
 ## The idea: the AI suggests, code checks
 Most support bots put their rules in the prompt, and prompts can be talked around. Here the rules
 that must never break are in code:

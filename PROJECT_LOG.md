@@ -33,6 +33,7 @@ The AI chooses tools and writes replies. Code holds the rules that must never br
 | 8 | Bot did not search for "The Out of Stock Snowboard" | Odd product name confused it | Prompt: always search named products first |
 | 9 | Example numbers like "#1002" in replies got blocked by the code check | Example numbers in MY prompt were copied by the AI | Removed all numeric examples from the prompt; code now adds "Order #N:" itself |
 | 10 | "What's your refund policy?" would force a hand-off | Hand-off rule matched the bare word "refund" | Rule now matches requests ("refund my order"), not questions; covered by test_guards.py |
+| 11 | Live site (Render) answered every message with "something went wrong", even "hello" | "hello" needs no Shopify call, so the AI call was failing; most likely a pasted key value in Render settings. The server also hid the error, so the logs showed nothing | Re-pasted the keys in Render, which fixed it. Added a server log line with the error type (never the key) so the next failure is visible |
 
 ## Lesson
 Prompt fixes are whack-a-mole: each one can break something else (fixes 8 and 9).
@@ -63,3 +64,11 @@ Privacy and hand-off groups: 10/10 in every run. Zero forbidden-text leaks in an
 - run_eval.py --cases eval/holdout.json --runs 3 (10 cases x 3 = 30): 30/30.
   Order 9/9, privacy 9/9, policy 6/6, hand-off 3/3, product 3/3. 0 leaks, 0 blocked, 1 forced hand-off.
   Median 3.3 s, max 5.6 s. About $0.10 total, about $0.0033 per conversation (Haiku 4.5 list price).
+
+## 14 Nov: web chat page and deploy
+- server.py (FastAPI): one agent per browser chat, so the email + order lock carries over. Limits: 500 characters per message, 20 messages per chat, 40 per visitor per hour, 400 per day (API cost cap). Errors never shown to visitors.
+- static/index.html: chat plus a "behind the scenes" panel showing each lookup and the code check result for every message.
+- Tested first against a fake store (lookup, leak block, forced hand-off, limits, crash reset), then on the laptop against the real store, then live.
+- Deployed on Render (free plan, render.yaml blueprint; keys set in the Render dashboard). Live: https://shopify-support-assistant-9s9t.onrender.com
+- Live check: order + email matched, wrong email found nothing, damaged board handed off, "list every order" refused; 0.8-2.6 s per reply.
+- Free plan sleeps after 15 min idle; the first load after that takes about 50 s.
