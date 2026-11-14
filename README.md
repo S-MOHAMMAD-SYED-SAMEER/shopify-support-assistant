@@ -43,6 +43,8 @@ Claude Haiku 4.5 with tool use. No database; hand-offs are logged to `handoffs.j
 | `shopify_client.py` | Read-only Shopify access: order lookup with the email lock, policies, product search |
 | `agent.py` | Claude with 4 tools, the reply check and the code-forced hand-off |
 | `chat.py` | Talk to the bot in the terminal |
+| `server.py`, `static/index.html` | Web chat page with a "behind the scenes" panel showing each lookup and code check; per-chat, per-visitor and daily message limits |
+| `render.yaml` | Deploy settings for Render (keys are set in the Render dashboard, never in the repo) |
 | `test_guards.py` | 35 deterministic tests of the safety code (no AI, no network) |
 | `run_eval.py` | Runs conversation test sets against the real store and model; `--runs N` |
 | `eval/cases.json`, `eval/holdout.json` | 22 development and 10 held-out conversations |
@@ -66,6 +68,7 @@ Claude Haiku 4.5 with tool use. No database; hand-offs are logged to `handoffs.j
    python chat.py
    python run_eval.py --cases eval/holdout.json --runs 3
    ```
+4. Web chat: `python -m uvicorn server:app --reload`, then open http://127.0.0.1:8000
 
 ## Limits
 Tested on a development store with sample data (17 products, 3 customers, 4 orders), English only,

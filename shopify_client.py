@@ -6,6 +6,7 @@ the email on the order both match what the customer gave.
 """
 import html
 import json
+import os
 import re
 import time
 import urllib.error
@@ -15,14 +16,19 @@ import urllib.request
 API_VERSION = "2026-10"
 
 
+ENV_KEYS = ("SHOPIFY_STORE", "SHOPIFY_CLIENT_ID", "SHOPIFY_CLIENT_SECRET", "ANTHROPIC_API_KEY")
+
+
 def load_env(path=".env"):
-    env = {}
-    with open(path, encoding="utf-8") as f:
-        for line in f:
-            line = line.strip()
-            if "=" in line and not line.startswith("#"):
-                k, v = line.split("=", 1)
-                env[k.strip()] = v.strip()
+    """Settings from the .env file (local) or environment variables (hosting, e.g. Render)."""
+    env = {k: os.environ[k] for k in ENV_KEYS if os.environ.get(k)}
+    if os.path.exists(path):
+        with open(path, encoding="utf-8") as f:
+            for line in f:
+                line = line.strip()
+                if "=" in line and not line.startswith("#"):
+                    k, v = line.split("=", 1)
+                    env[k.strip()] = v.strip()
     return env
 
 
